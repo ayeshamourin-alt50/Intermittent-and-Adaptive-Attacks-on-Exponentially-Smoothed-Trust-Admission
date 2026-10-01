@@ -7,7 +7,7 @@ It verifies the theoretical results (Theorems 2-3, Lemma 1, Proposition 2),
 the numerical first-passage analysis, the detection/ROC analysis, and the
 scheduler comparison.
 Archived on Zenodo; see the DOI badge below.
-
+DOI: [10.5281/zenodo.23078934](https://doi.org/10.5281/zenodo.23078934)
 ## Requirements
 - MATLAB R2018b or later (uses `xline`)
 - Statistics and Machine Learning Toolbox (`poissrnd`, `ttest`, `randsample`, `tiedrank`)
@@ -44,7 +44,14 @@ Expected key outputs:
 The DQN baseline (Scenario E), PBFT message-complexity simulator, SimPy
 resource bookkeeping, and the attacker-model/parameter-sweep figures
 (Figs. 5-8, Table 7) were produced with a separate Python pipeline
-[add here: included in /python, or "available on request"].
+## Not included in this repository
+The following components of the paper were produced with a separate Python
+pipeline and are not part of this release: the DQN baseline (Scenario E,
+Sec. 5.3), the PBFT message-complexity simulator (Sec. 5.2, 6.7), and the
+sensitivity/attacker-model experiments (Figs. 5-8, Table 7). They are
+available from the corresponding author on reasonable request.
+
+
 
 ## Citation
 See `CITATION.cff`. If you use this code, please cite the paper and the Zenodo DOI.
