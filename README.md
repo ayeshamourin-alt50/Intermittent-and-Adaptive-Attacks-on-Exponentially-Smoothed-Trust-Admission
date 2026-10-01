@@ -6,8 +6,7 @@ MATLAB code accompanying the paper by A. S. Mourin, M. M. Uddin and M. S. Ahsan.
 It verifies the theoretical results (Theorems 2-3, Lemma 1, Proposition 2),
 the numerical first-passage analysis, the detection/ROC analysis, and the
 scheduler comparison.
-
-DOI: https://doi.org/10.5281/zenodo.XXXXXXX
+Archived on Zenodo; see the DOI badge below.
 
 ## Requirements
 - MATLAB R2018b or later (uses `xline`)
